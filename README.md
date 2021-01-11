@@ -1,6 +1,6 @@
 # HIBP
 
-<img src="./logo.jpg" style="zoom:25%;" align="left"/>
+<img src="./logo.jpg" style="zoom:5%;"/>
 
 **HIBP** stand for **H**ave**IB**een**P**wned.
 
