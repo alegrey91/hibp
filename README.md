@@ -1,6 +1,6 @@
 # HIBP
 
-<img src="/home/alessio/go/src/github.com/alegrey91/hibp/logo.jpg" style="zoom:25%;" align="left"/>
+<img src="./logo.jpg" style="zoom:25%;" align="left"/>
 
 **HIBP** stand for **H**ave**IB**een**P**wned.
 
