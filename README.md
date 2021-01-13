@@ -1,6 +1,6 @@
 # HIBP
 
-<img src="./logo.jpg" style="zoom:5%;"/>
+<img src="./logo.jpg" style="zoom:25%;"/>
 
 **HIBP** stand for **H**ave**IB**een**P**wned.
 
@@ -20,6 +20,14 @@ or
 
 ```bash
 hibp check "MySuperSecurePassword"
+```
+
+### Tip
+
+To avoid logging your password into your history, consider to add the following line to your `.bashrc` file:
+
+```bash
+export HISTCONTROL='ignoreboth:erasedups'
 ```
 
 ## Installation
