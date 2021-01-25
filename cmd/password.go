@@ -34,7 +34,7 @@ import (
 
 // checkCmd represents the check command
 var checkCmd = &cobra.Command{
-	Use:   "check \"yourpassword\"",
+	Use:   "password \"yourpassword\"",
 	Short: "Check if your password has been found in some data set.",
 	Long: `hibp uses the haveibeenpwned.com APIs to check your password 
 validity in order to protect the value of the source password 
