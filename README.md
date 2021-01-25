@@ -1,7 +1,5 @@
 # HIBP
 
-<img src="./logo.jpg" style="zoom:25%;"/>
-
 **HIBP** stand for **H**ave**IB**een**P**wned.
 
 It is a simple tool to check if your password has been pwned and found in some data leak.
