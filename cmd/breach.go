@@ -27,7 +27,7 @@ import (
 	"encoding/json"
 
 	"github.com/spf13/cobra"
-	"github.com/alegrey91/hibp/utils"
+	"github.com/alegrey91/hibp/private"
 )
 
 // breachCmd represents the breach command
