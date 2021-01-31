@@ -29,7 +29,7 @@ import (
 	"strings"
 
 	"github.com/spf13/cobra"
-	"github.com/alegrey91/hibp/utils"
+	"github.com/alegrey91/hibp/private"
 )
 
 // checkCmd represents the check command

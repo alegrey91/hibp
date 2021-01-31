@@ -2,23 +2,33 @@
 
 **HIBP** stand for **H**ave**IB**een**P**wned.
 
-It is a simple tool to check if your password has been pwned and found in some data leak.
+It is a simple client to communicate with [haveibeenpwned](haveibeenpwned.com) APIs.
 
-This unofficial tool uses the [haveibeenpwned](haveibeenpwned.com) API to protect your privacy, using a mathematical property called [*k*-anonymity](https://en.wikipedia.org/wiki/K-anonymity). Here's is explained how the API maintains your privacy: [haveibeenpwned-privacy](https://www.troyhunt.com/ive-just-launched-pwned-passwords-version-2/#cloudflareprivacyandkanonymity)
+This interact (for now) with the **breach** and the **password** endpoints.
 
 ## Usage
 
-Use this tool is pretty easy.
+```
+HIBP stand for HaveIBeenPwned.
+It is a simple client to communicate with haveibeenpwned (haveibeenpwned.com) APIs.
 
-```bash
-echo "MySuperSecurePassword" | hibp check
+Usage:
+  hibp [command]
+
+Available Commands:
+  breach      Check if a specific site has been compromised.
+  help        Help about any command
+  password    Check if your password has been found in some data set.
+
+Flags:
+      --config string   config file (default is $HOME/.hibp.yaml)
+  -h, --help            help for hibp
+  -t, --toggle          Help message for toggle
+
+Use "hibp [command] --help" for more information about a command.
 ```
 
-or
-
-```bash
-hibp check "MySuperSecurePassword"
-```
+This actually supports passing arguments from **stdin**.
 
 ### Tip
 
@@ -31,6 +41,6 @@ export HISTCONTROL='ignoreboth:erasedups'
 ## Installation
 
 ``` bash
-go get -v github.com/alegrey91/hibp
+go get -v github.com/alegrey91/hibp && go build
 ```
 
